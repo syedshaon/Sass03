@@ -1,0 +1,30 @@
+/* ------------- HEADER ------------- */
+header {
+    height: 130px;
+    background-image: url(../images/header1024.jpg);
+
+    h1 {
+        padding-top: 50px;
+    }
+}
+
+
+/* ------------- MAIN ------------- */
+main {
+    max-width: 120rem;
+    margin: 0 auto;
+
+    figure {
+        width: 50%;
+
+        float: right;
+        margin-right: $gutter;
+    }
+
+    article.multiCol {
+        column-count: 2;
+        column-rule: 1px solid $secondaryColor;
+        column-gap: $gutter;
+
+    }
+}
