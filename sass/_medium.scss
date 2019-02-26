@@ -11,9 +11,11 @@ header {
 
 /* ------------- MAIN ------------- */
 main {
-    max-width: 120rem;
+    max-width: 1024px;
     margin: 0 auto;
-
+div.Slider div img{
+    width: 96%;
+margin:0 2%}
     figure {
         width: 50%;
 
