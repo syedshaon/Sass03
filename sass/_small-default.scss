@@ -23,7 +23,7 @@ body {
 header {
 	height: 110px;
 	background-image: url(../images/header0560.jpg);
-position: relative;
+	position: relative;
 
 	h1,
 	h2 {
@@ -34,15 +34,16 @@ position: relative;
 	}
 
 	//end both
- figure.logo {
- 	position: absolute;
- 	bottom: 0;
- 	left: 2%;
- }
+	figure.logo {
+		position: absolute;
+		bottom: 0;
+		left: 2%;
+	}
 
 	h1 {
 		padding-top: 30px;
 		font-size: 2rem;
+		font-weight: $boldWeight;
 	}
 
 	//end h1
@@ -104,6 +105,38 @@ nav {
 
 main {
 	min-height: 20rem;
+	background-color: white;
+div.mySlider8{
+	width: 70%;
+	margin:0 auto;
+}
+	div.Slider div {
+		width: 100%;
+
+		h3 {
+			text-align: center;
+			padding-top: 10px;
+		}
+	}
+
+	
+
+	div.Slider div img {
+		width: 100%;
+		height: auto;
+
+	}
+
+	div.wider div img {
+		width: 96%;
+		margin: 0 2%;
+	}
+
+
+
+
+
+
 
 	figure {
 		width: 96%;
@@ -126,11 +159,12 @@ main {
 
 	h2 {
 		font-size: 1.5rem;
-		margin: .75rem 0 0 $gutter;
-		color: lighten($primaryColor, 10%);
+		margin: 0 0 0 $gutter;
+		padding: 1rem 0;
+		color: black;
 	}
 
-	
+
 
 	// end h2
 
@@ -142,15 +176,17 @@ main {
 	// end p
 
 
-article.multiCol {
-	margin: .5rem  $gutter;
-}
-figure.photo-pd{
-	width: 100%-$gutterdbl;
-}
-figure.photo-pd img {
-	width: 100%;
-}
+	article.multiCol {
+		margin: .5rem $gutter;
+	}
+
+	figure.photo-pd {
+		width: 100%-$gutterdbl;
+	}
+
+	figure.photo-pd img {
+		width: 100%;
+	}
 
 
 }

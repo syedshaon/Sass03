@@ -12,6 +12,8 @@
 
 	<!-- STYLE SHEETS -->
 	<link href="css/styles.css" rel="stylesheet">
+	<link href="slick/slick.css" rel="stylesheet">
+	<link href="slick/slick-theme.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,500" rel="stylesheet">
 
 
@@ -25,17 +27,19 @@
 			<img src="images/logo.png" srcset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x">
 		</figure>
 
-		<h1>Beit Pablo</h1>
-		<h2>Uncovering the Past</h2>
+		<h1>Slick Slider</h1>
+		<h2>Few Example showcase</h2>
+
+
 	</header>
 
 	<!-- NAV STARTS HERE -->
 	<nav>
 		<ul class="clearfix">
-			<li class="active"><a href="index.html">Excavation</a></li>
-			<li><a href="#">History</a></li>
-			<li><a href="#">Visit</a></li>
-			<li><a href="#">Donate</a></li>
+			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="#">More</a></li>
+			<li><a href="#">More</a></li>
+			<li><a href="#">About</a></li>
 		</ul>
 
 	</nav>
@@ -43,6 +47,109 @@
 
 	<!-- MAIN STARTS HERE -->
 	<main>
+		<h2> Slider 01 with Autoplay and faster speed</h2>
+		<div class="mySlider Slider">
+			<div><img src="slider/slider01h.jpg" alt="slider"></div>
+			<div><img src="slider/slider02h.jpg" alt="slider"></div>
+			<div><img src="slider/slider03h.jpg" alt="slider"></div>
+			<div><img src="slider/slider04h.jpg" alt="slider"></div>
+			<div><img src="slider/slider05h.jpg" alt="slider"></div>
+		</div>
+		<h2> Slider 02 with Autoplay and responsive image with "srcset"</h2>
+		<div class="mySlider2 Slider">
+			<picture>
+				<source srcset="slider/slider01h.jpg" media="(min-width: 29.26rem)">
+				<img srcset="slider/slider01s.jpg" alt="image">
+			</picture>
+			<picture>
+				<source srcset="slider/slider02h.jpg" media="(min-width: 29.26rem)">
+				<img srcset="slider/slider02s.jpg" alt="image">
+			</picture>
+			<picture>
+				<source srcset="slider/slider03h.jpg" media="(min-width: 29.26rem)">
+				<img srcset="slider/slider03s.jpg" alt="image">
+			</picture>
+			<picture>
+				<source srcset="slider/slider04h.jpg" media="(min-width: 29.26rem)">
+				<img srcset="slider/slider04s.jpg" alt="image">
+			</picture>
+			<picture>
+				<source srcset="slider/slider05h.jpg" media="(min-width: 29.26rem)">
+				<img srcset="slider/slider05s.jpg" alt="image">
+			</picture>
+		</div>
+		<h2> Slider 03 with Multiple image at once</h2>
+		<div class="mySlider3 Slider">
+			<div><img src="slider/slider01h.jpg" alt="slider"></div>
+			<div><img src="slider/slider02h.jpg" alt="slider"></div>
+			<div><img src="slider/slider03h.jpg" alt="slider"></div>
+			<div><img src="slider/slider04h.jpg" alt="slider"></div>
+			<div><img src="slider/slider05h.jpg" alt="slider"></div>
+		</div>
+
+		<h2> Responsive Slider 04</h2>
+		<div class="mySlider4 Slider">
+			<div><img src="slider/slider01h.jpg" alt="slider"></div>
+			<div><img src="slider/slider02h.jpg" alt="slider"></div>
+			<div><img src="slider/slider03h.jpg" alt="slider"></div>
+			<div><img src="slider/slider04h.jpg" alt="slider"></div>
+			<div><img src="slider/slider05h.jpg" alt="slider"></div>
+		</div>
+
+		<h2> Slider 05 with different image Width</h2>
+		<div class="mySlider5 ">
+			<div><img src="slider/slider01h.jpg" alt="slider"></div>
+			<div><img src="slider/slider06h.jpg" alt="slider"></div>
+			<div><img src="slider/slider02h.jpg" alt="slider"></div>
+			<div><img src="slider/slider07h.jpg" alt="slider"></div>
+			<div><img src="slider/slider03h.jpg" alt="slider"></div>
+			<div><img src="slider/slider08h.jpg" alt="slider"></div>
+			<div><img src="slider/slider04h.jpg" alt="slider"></div>
+		</div>
+		<h2> Slider 06 with Message at Bottom</h2>
+		<div class="mySlider6 Slider">
+			<div>
+				<img src="slider/slider01h.jpg" alt="slider">
+				<h3>Slide 1</h3>
+			</div>
+			<div>
+				<img src="slider/slider02h.jpg" alt="slider">
+				<h3>Slide 2</h3>
+			</div>
+			<div>
+				<img src="slider/slider03h.jpg" alt="slider">
+				<h3>Slide 3</h3>
+			</div>
+			<div>
+				<img src="slider/slider04h.jpg" alt="slider">
+				<h3>Slide 4</h3>
+			</div>
+			<div>
+				<img src="slider/slider05h.jpg" alt="slider">
+				<h3>Slide 4</h3>
+			</div>
+
+		</div>
+
+		<h2> Slider 07 with Center image Wider</h2>
+		<div class="mySlider7 wider">
+			<div><img src="slider/slider01h.jpg" alt="slider"></div>
+			<div><img src="slider/slider02h.jpg" alt="slider"></div>
+			<div><img src="slider/slider03h.jpg" alt="slider"></div>
+			<div><img src="slider/slider04h.jpg" alt="slider"></div>
+			<div><img src="slider/slider05h.jpg" alt="slider"></div>
+		</div>
+
+
+		<h2> Slider 08 with Lazy load and Fade</h2>
+		<div class="mySlider8 Slider">
+			<div><img data-lazy="slider/slider09h.jpg" alt="slider"></div>
+			<div><img data-lazy="slider/slider10h.jpg" alt="slider"></div>
+			<div><img data-lazy="slider/slider11h.jpg" alt="slider"></div>
+			<div><img data-lazy="slider/slider04h.jpg" alt="slider"></div>
+			<div><img data-lazy="slider/slider05h.jpg" alt="slider"></div>
+		</div>
+
 
 		<h1>Excavation</h1>
 
@@ -89,9 +196,12 @@
 
 	<!-- FOOTER STARTS HERE -->
 	<footer>
-		<p>HTML5 Responsive Design Start File by Paul Cheney</p>
+		<p>HTML5 Responsive Design by Mashiur</p>
 	</footer>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="slick/slick.min.js"></script>
 
+	<script src="js/main.js"></script>
 
 </body>
 
